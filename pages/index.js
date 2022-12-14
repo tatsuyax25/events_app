@@ -11,8 +11,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <nav>
+          <img />
+          <a href='/'> Home</a>
+          <a href='/events'> Events</a>
+          <a href='/about-us'> About Us</a>
+        </nav>
+      </header>
+
       <main className={styles.main}>
-        
+        <div>
+          <h2> Events in London</h2>
+          <p></p>
+        </div>
       </main>
 
       <footer className={styles.footer}>
